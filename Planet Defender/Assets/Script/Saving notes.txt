@@ -1,0 +1,8 @@
+        ScoreSystem test = new ScoreSystem();
+        test.score = 110;
+        test.test = this.gameObject;
+
+        SavingController.WriteDataToFile(JsonUtility.ToJson(test));
+        SavingController.LoadDataFromFile("");
+
+[Serializable]

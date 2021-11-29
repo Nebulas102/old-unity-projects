@@ -1,0 +1,36 @@
+[
+	{
+	"enemies": [0],
+	"enemyAmount": [20],
+	"spawnChance": 20
+	},
+	{
+	"enemies": [0, 1],
+	"enemyAmount": [20, 5],
+	"spawnChance": 25
+	},
+	{
+	"enemies": [0, 1],
+	"enemyAmount": [30, 20],
+	"spawnChance": 30
+	},
+	{
+	"enemies": [0, 1, 2],
+	"enemyAmount": [30, 20, 10],
+	"spawnChance": 30
+	},
+	{
+	"enemies": [0, 1, 2],
+	"enemyAmount": [40, 20, 20],
+	"spawnChance": 40
+	},
+	{
+	"enemies": [3, 0],
+	"enemyAmount": [1, 30],
+	"spawnChance": 40,
+
+	"bossWave": true,
+	"bossEnemyIndex": [3],
+	"bossSpawnChance": 1
+	}
+]
