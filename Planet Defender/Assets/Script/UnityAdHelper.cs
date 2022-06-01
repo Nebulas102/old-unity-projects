@@ -9,8 +9,8 @@ public class UnityAdHelper : MonoBehaviour
 {
     public void ShowRewardedAd()
     {
-
-        if (Advertisement.IsReady("rewardedVideo"))
+        
+        if (Advertisement.isReady("rewardedVideo"))
         {
             var options = new ShowOptions { resultCallback = HandleShowResult };
             Advertisement.Show("rewardedVideo", options);
